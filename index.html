@@ -7,6 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css"
+  />
 </head>
 
 <body>
@@ -15,11 +17,17 @@
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
         <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        <h2>Use the interactive charts below to explore the dataset</h2>
+      </div>
+      <div class="col-md-12 text-center">
+        <p class="paragraph1">
+          The hypothetical company, <em>Improbable Beef</em>, is searching for the perfect bacteria to make their products taste more like actual meat. Roza, an employee of <em>Improbable Beef</em>, has a hypothesis that the perfect bacteria can be found in human belly buttons. Samples were collected and the data was compiled and the below graphs and charts were created. <br><br>You can filter the data by the <strong>Test Subject ID Number</strong>  below to observe the findings.
+        </p>
+        <hr>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-2">
+            <div class="col-md-2">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
@@ -35,11 +43,11 @@
       <div class="col-md-4">
         <div id="bar"></div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-1">
         <div id="gauge"></div>
       </div>
     </div>
-    <div class="row">
+    <div class="row bubchar">
       <div class="col-md-12">
         <div id="bubble"></div>
       </div>

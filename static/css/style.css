@@ -1,0 +1,26 @@
+body {
+    background-color:#FCF8E8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.jumbotron {
+    background-image: url("../images/brian-mcgowan-w46WZBxI_uk-unsplash.jpg");
+    background-size: 100%;
+    text-align: center;
+    color:#FCF8E8;
+     
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: #94B49F;
+    border-width: 5px;
+    width: 7%;
+}
+
+.paragraph1 {
+    font-size: 20px;
+}
+
+
